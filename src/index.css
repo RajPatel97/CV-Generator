@@ -56,9 +56,12 @@ code {
   display: list-item;
   margin: .5em;
   width:90%;
+  background-color: #3CBC8D;
+  color: white;
 
 }
 
 .description-inputStyle{
   height:5%;
+  white-space: pre-wrap;
 }

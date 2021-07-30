@@ -7,7 +7,7 @@ const GeneralInformation = () => {
         <input type="text" placeholder = "Address" class = "inputStyle"/>
         <input type="text" placeholder = "Phone Number" class = "inputStyle"/>
         <input type="text" placeholder = "Email" class = "inputStyle"/>
-        <input type="text" placeholder = "Description" class = "description-inputStyle" class = "inputStyle"/>
+        <input type="text" placeholder = "Description"  class = "inputStyle"/>
 
       </div>
       );
