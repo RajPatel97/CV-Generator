@@ -1,6 +1,6 @@
 const GeneralInformation = () => {
     return (
-        <button className="general-info">Add Some General Information about yourself</button>
+      <h2 className="title">Personal Information</h2>
       );
 }
  
