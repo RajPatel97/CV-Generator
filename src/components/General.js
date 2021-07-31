@@ -12,6 +12,7 @@ const GeneralInformation = () => {
   const handleClick=()=>{
     //adds update to the cv with the data above once clicked
     console.log(firstName,lastName,address,phoneNumber,email,description);
+    
   }
 
     return (

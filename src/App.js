@@ -3,7 +3,9 @@ import GeneralInformation from "./components/General";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import CVdisplay from "./components/CVdisplay";
+import info from "./Util/Info";
 function App() {
+  const Info = new info();
   return (
     <div>
     <Header />
