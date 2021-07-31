@@ -23,7 +23,7 @@ code {
 }
 
 .body-content{
-
+  display:flex;
 }
 
 .input-container{
@@ -64,4 +64,8 @@ code {
 #description-inputStyle{
   height:80px;
   overflow-wrap: break-word;
+}
+
+.displayHeader{
+  
 }
