@@ -61,7 +61,7 @@ code {
 
 }
 
-.description-inputStyle{
-  height:5%;
-  white-space: pre-wrap;
+#description-inputStyle{
+  height:80px;
+  overflow-wrap: break-word;
 }
