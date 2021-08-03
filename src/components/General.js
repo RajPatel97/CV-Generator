@@ -1,6 +1,8 @@
 import { useState } from 'react';
 
-const GeneralInformation = () => {
+const GeneralInformation = (props) => {
+  const test = props.test;
+  const setFormTest = props.setFormTest;
 
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -12,6 +14,7 @@ const GeneralInformation = () => {
   const handleClick=()=>{
     //adds update to the cv with the data above once clicked
     console.log(firstName,lastName,address,phoneNumber,email,description);
+    setFormTest("testing new");
     
   }
 
@@ -25,6 +28,7 @@ const GeneralInformation = () => {
         <input type="text" placeholder = "Email" class = "inputStyle" onChange={event => setEmail(event.target.value)}/>
         <input type="text" placeholder = "Description" id = "description-inputStyle" class = "inputStyle" onChange={event => setDescription(event.target.value)}/>
         <button className="submit" onClick = {handleClick}>Submit</button>
+        <h1>{test}</h1>
 
       </div>
       );
