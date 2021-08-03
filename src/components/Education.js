@@ -1,9 +1,13 @@
 import { useState } from 'react';
-const Education = () => {
+const Education = (props) => {
 
-    const [universityName, setUniversityName] = useState('')
-    const [yearsAttended, setYearsAttended] = useState('')
-    const [major, setMajor] = useState('')
+    const universityName = props.universityName;
+    const setUniversityName = props.setUniversityName;
+    const yearsAttended = props.yearsAttended;
+    const  setYearsAttended= props.setYearsAttended;
+    const major = props.major;
+    const setMajor = props.setMajor;
+
 
     const handleClick=()=>{
         //adds update to the cv with the data above once clicked

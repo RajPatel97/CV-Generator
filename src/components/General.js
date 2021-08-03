@@ -4,12 +4,20 @@ const GeneralInformation = (props) => {
   const test = props.test;
   const setFormTest = props.setFormTest;
 
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [address, setAddress] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [email, setEmail] = useState('');
-  const [description, setDescription] = useState('');
+
+
+  const firstName = props.firstName;
+  const setFirstName = props.setFirstName;
+  const lastName = props.lastName;
+  const setLastName = props.setLastName;
+  const address = props.address;
+  const setAddress = props.setAddress;
+  const phoneNumber = props.phoneNumber;
+  const setPhoneNumber = props.setPhoneNumber;
+  const email = props.email;
+  const setEmail = props.setEmail;
+  const description = props.description;
+  const setDescription = props.setDescription;
 
   const handleClick=()=>{
     //adds update to the cv with the data above once clicked
