@@ -5,7 +5,6 @@ import CVdisplay from "./CVdisplay";
 import Experience from "./Experience";
 
 const Form = () => {
-    const [formTest, setFormTest] = useState('testing1 ');
 
     //for General Information 
     const [firstName, setFirstName] = useState('');
@@ -30,7 +29,7 @@ const Form = () => {
     return ( 
         <div className="formWraper">
             <div className="input-container">
-      <GeneralInformation test ={formTest} setFormTest = {setFormTest}
+      <GeneralInformation
           firstName={firstName} setFirstName={setFirstName}
           lastName={lastName} setLastName={setLastName}
           address={address} setAddress={setAddress}
@@ -68,7 +67,6 @@ const Form = () => {
         descriptionExperience = {descriptionExperience}
         yearsEmployed = {yearsEmployed}
        />
-      <h3>{formTest}</h3>
         </div>
      );
 }

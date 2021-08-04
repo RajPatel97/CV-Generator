@@ -24,6 +24,8 @@ code {
 
 .body-content{
   display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .formWraper{
@@ -70,6 +72,6 @@ code {
   overflow-wrap: break-word;
 }
 
-.displayHeader{
-  
+.formWraper{
+
 }
