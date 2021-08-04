@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 const Education = (props) => {
 
     const universityName = props.universityName;

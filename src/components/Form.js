@@ -49,28 +49,24 @@ const Form = () => {
         jobTitle = {jobTitle} setJobTitle = {setJobTitle}
         employer =  {employer} setEmployer = {setEmployer}
         descriptionExperience = {descriptionExperience} setDescriptionExperience = {setDescriptionExperience}
-        yearsAttended = {yearsAttended} setYearsAttended = {setYearsAttended}
+        yearsEmployed = {yearsEmployed} setYearsEmployed = {setYearsEmployed}
        />
       </div>
       {/* add logic for the cv display here*/}
       <CVdisplay
-        firstName={firstName} setFirstName={setFirstName}
-        lastName={lastName} setLastName={setLastName}
-        address={address} setAddress={setAddress}
-        phoneNumber={phoneNumber} setPhoneNumber={setPhoneNumber}
-        email={email} setEmail={setEmail}
-        description={description} setDescription={setDescription}
-
-        universityName = {universityName} setUniversityName = {setUniversityName}
-        yearsAttended = {yearsAttended} setYearsAttended = {setYearsAttended}
-        major= {major} setMajor = {setMajor}
-
-        jobTitle = {jobTitle} setJobTitle = {setJobTitle}
-        employer =  {employer} setEmployer = {setEmployer}
-        descriptionExperience = {descriptionExperience} setDescriptionExperience = {setDescriptionExperience}
-        yearsAttended = {yearsAttended} setYearsAttended = {setYearsAttended}
-
-      
+        firstName={firstName}
+        lastName={lastName}
+        address={address}
+        phoneNumber={phoneNumber}
+        email={email}
+        description={description}
+        universityName = {universityName}
+        yearsAttended = {yearsAttended}
+        major= {major} 
+        jobTitle = {jobTitle}
+        employer =  {employer}
+        descriptionExperience = {descriptionExperience}
+        yearsEmployed = {yearsEmployed}
        />
       <h3>{formTest}</h3>
         </div>
