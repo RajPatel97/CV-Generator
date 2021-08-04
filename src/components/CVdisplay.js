@@ -33,11 +33,17 @@ const CVdisplay = (props) => {
 
     return (
         <div className="input-container">
-        <header className="displayHeader">This is the header</header>
+        <header className="displayHeader">
+        <h2>{firstName +" " +lastName}</h2>
+        <div>{address}</div>
+        <div>{phoneNumber}</div>
+        <div>{email}</div>
+    
+        </header>
 
 
         </div>
       );
 }
  
-export default CVdisplay;
+export default CVdisplay; 
