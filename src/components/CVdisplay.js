@@ -38,8 +38,15 @@ const CVdisplay = (props) => {
         <div>{address}</div>
         <div>{phoneNumber}</div>
         <div>{email}</div>
-    
         </header>
+
+        <div className="displaybody">
+        <h3>Education</h3>
+        <div>{universityName}</div>
+        <div>{yearsAttended}</div>
+        <div>{major}</div>
+
+        </div>
 
 
         </div>
